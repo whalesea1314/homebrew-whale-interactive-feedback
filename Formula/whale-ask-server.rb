@@ -1,17 +1,17 @@
 class WhaleAskServer < Formula
   desc "Whale Interactive Feedback MCP Server - AI-powered interactive feedback tool"
   homepage "https://github.com/whalesea1314/whale-interactive-feedback"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_intel do
-    url "https://github.com/whalesea1314/whale-interactive-feedback/releases/download/v1.0.0/whale-ask-server-v1.0.0-macos-x86_64.tar.gz"
-    sha256  "96e360ce562aa116b138d819ca01da63e816c6c2aec3370e6e99746fe94bf4a0"
+    url "https://github.com/whalesea1314/whale-interactive-feedback/releases/download/v1.0.1/whale-ask-server-v1.0.1-macos-x86_64.tar.gz"
+    sha256  "9b936fafa3cfa22ff6e41f619c98d552c699ef8b9a8cfa1d9b092d3377bc009f"
   end
 
   on_arm do
-    url "https://github.com/whalesea1314/whale-interactive-feedback/releases/download/v1.0.0/whale-ask-server-v1.0.0-macos-aarch64.tar.gz"
-    sha256  "39bb5ca20bfa4ec27e816f29035223a15c5490ae524c0c3d4b592e922d0eecfb"
+    url "https://github.com/whalesea1314/whale-interactive-feedback/releases/download/v1.0.1/whale-ask-server-v1.0.1-macos-aarch64.tar.gz"
+    sha256  "7e7bfa98004c170ab1b0764e4ebc3f47b0ed9b75583a7d1b7a67939ad47d0848"
   end
 
   def install
