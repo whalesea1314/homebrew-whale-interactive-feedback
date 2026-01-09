@@ -6,12 +6,12 @@ class WhaleAskServer < Formula
 
   on_intel do
     url "https://github.com/whalesea1314/whale-interactive-feedback/releases/download/v1.0.0/whale-ask-server-v1.0.0-macos-x86_64.tar.gz"
-    sha256 "PLACEHOLDER_INTEL_SHA256"
+    sha256  "96e360ce562aa116b138d819ca01da63e816c6c2aec3370e6e99746fe94bf4a0"
   end
 
   on_arm do
     url "https://github.com/whalesea1314/whale-interactive-feedback/releases/download/v1.0.0/whale-ask-server-v1.0.0-macos-aarch64.tar.gz"
-    sha256 "PLACEHOLDER_ARM_SHA256"
+    sha256  "39bb5ca20bfa4ec27e816f29035223a15c5490ae524c0c3d4b592e922d0eecfb"
   end
 
   def install
